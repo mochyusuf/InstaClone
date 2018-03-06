@@ -20,6 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegisterUserActivity" />
+        <activity android:name=".ProfileUser.UserProfileActivity" />
+        <activity
+            android:name=".InstaHome"
+            android:label="@string/title_activity_insta_home"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

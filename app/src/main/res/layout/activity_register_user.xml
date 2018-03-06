@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tex.com.instaclone.RegisterUserActivity">
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.66"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edit_email_register"
+                android:layout_width="381dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edittext"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textWebEmailAddress"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/edit_password_register"
+                android:background="@drawable/border_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3.66"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_create"
+                android:layout_width="203dp"
+                android:layout_height="57dp"
+                android:text="CREATE"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
